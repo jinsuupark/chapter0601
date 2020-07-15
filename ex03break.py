@@ -8,3 +8,9 @@ for s in score:
     print(s)
     
 print("성적 처리 끝")
+
+#x = int(input("몇단을 출력할까요?\n"))
+for x in range(2,10):
+    print(x,"단 출력")
+    for n in range(1,10):
+        print(x," * ",n,"=",x*n)
